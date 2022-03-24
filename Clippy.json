@@ -1,0 +1,1 @@
+{"first": "ry:\n\t\twith open( FILE , 'r') as f:\n\t\t\tdata = json.load(f)\n\t\t\treturn data\n\texcept:\n\t\treturn {}\n\nif len(sys.argv) == 2:\n\tcommand = sys.argv[1]\n\tdata = loadBoard(FILE)\n\n\tif command == 'save':\n\t\tkey = input('enter a key: ')\n", "key": "http://api.openweathermap.org/geo/1.0/direct?"}
